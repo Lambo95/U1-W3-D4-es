@@ -65,6 +65,6 @@ console.log(arrayNum.toString());
 arrayNum.shift();
 console.log(arrayNum.toString());
 
-var clacolo = (num1, num2) => num1 * num2;
+let clacolo = (num1, num2) => num1 * num2;
 console.log(clacolo(arrayNum[1], arrayNum[3]));
 console.log(clacolo(arrayNum[0], arrayNum[4]));
