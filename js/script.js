@@ -22,7 +22,7 @@ let personeArray = ["Mario", "Giovanni", "Sara", "Roberto", "Giorgia"];
 console.log(personeArray);
 console.log(personeArray[2]);
 let aggiungoPersona = "Alice";
-personeArray = personeArray.push(aggiungoPersona);
+personeArray.push(aggiungoPersona);
 // personeArray[6] = 'Alice';
 console.log(personeArray);
 
@@ -34,7 +34,8 @@ console.log(personeArray);
 //   i++;
 // }
 // for (let i = 0; i < lengthArray; i++) {
-//   console.log(personeArray[i]);
+//   let persona = personeArray[i];
+//   console.log(persona);
 // }
 
 let arrayNum = [1, 2, 3, 4, 5, 6, 7];
